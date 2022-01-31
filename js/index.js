@@ -53,31 +53,31 @@ function loadPhrase() {
 };
 
 function changePersons(){
-    body.style.backgroundImage = 'url(../img/personagens.jpg)';
+    body.style.background = 'url(../img/persons.jpg) no-repeat center center fixed';
     body.style.backgroundSize = 'cover';
-    body.style.transition = '0.8s';
+    body.style.transitionDuration = '0.3s';
 };
 
 function changeDarth(){
-    body.style.backgroundImage = 'url(../img/bg.jpg)';
-    body.style.backgroundSize = 'cover';
-    body.style.transition = '0.8s';
+    body.style.background = 'url(../img/darthvader.jpg) no-repeat center center fixed';
+    body.style.backgroundSize =  'cover';
+    body.style.transitionDuration = '0.3s';
 }
 
 function changeObi(){
-    body.style.backgroundImage = 'url(../img/obi.jpeg)';
-    body.style.backgroundSize = 'cover';
-    body.style.transition = '1s ease';
+    body.style.background = 'url(../img/obiwan.jpg) no-repeat center center fixed';
+    body.style.backgroundSize =  'cover';
+    body.style.transitionDuration = '0.3s';
 }
 
 function changeStarships(){
-    body.style.backgroundImage = 'url(../img/starships.jpg)';
-    body.style.backgroundSize = 'cover';
-    body.style.transition = '0.8s';
+    body.style.background = 'url(../img/starship.jpg) no-repeat center center fixed';
+    body.style.backgroundSize =  'cover';
+    body.style.transitionDuration = '0.3s';
 }
 
 function changePlanets(){
-    body.style.backgroundImage = 'url(../img/planets.jpg)';
-    body.style.backgroundSize = 'cover';
-    body.style.transition = '0.8s';
+    body.style.background = 'url(../img/planets.jpg) no-repeat center center fixed';
+    body.style.backgroundSize =  'cover';
+    body.style.transitionDuration = '0.3s';
 }

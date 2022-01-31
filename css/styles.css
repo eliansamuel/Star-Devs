@@ -13,9 +13,8 @@
 }
 
 body {
-    transition: 0.1s ease-out;
+    background: url(../img/darthvader.jpg) no-repeat center center fixed;
     background-size: cover;
-    background: url('../img/bg.jpg');
     padding: 2%;
 }
 
@@ -121,7 +120,7 @@ main .phrases-container p {
     width: 75%;
     font-size: 1.5em;
     font-weight: 700;
-    margin-top: 4%;
+    margin-top: 5%;
 
     transition: 0.3s ease-in;
 }

@@ -22,7 +22,7 @@
     <main>
         <!-- Cards -->
         <section class="cards-main">
-            <div class="cards-container" onmouseover="changePersons()">
+            <div class="cards-container" onmouseover="changePersons()" onmouseout="changeDarth()">
                 <div class="card-main">
                     <span>Characters</span>
                     <h2 id="persons">Loading...</h2>
@@ -30,7 +30,7 @@
                 <img src="./img/darth.svg" alt="Imagem Characters">
             </div>
 
-            <div class="cards-container" onmouseover="changeStarships()">
+            <div class="cards-container" onmouseover="changeStarships()" onmouseout="changeDarth()">
                 <div class="card-main">
                     <span>Starships</span>
                     <h2 id="starships">Loading...</h2>
@@ -39,7 +39,7 @@
 
             </div>
 
-            <div class="cards-container" onmouseover="changePlanets()">
+            <div class="cards-container" onmouseover="changePlanets()" onmouseout="changeDarth()">
                 <div class="card-main">
                     <span>Planets</span>
                     <h2 id="planets">Loading...</h2>
